@@ -21,6 +21,7 @@
     "start-frontend": "react-scripts start"
   },
   "homepage": "https://github.com/jmyers-sde/seed3",
+  "proxy": "http://localhost:3033",
   "devDependencies": {
     "concurrently": "^7.0.0",
     "gh-pages": "^3.2.3"
