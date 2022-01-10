@@ -15,9 +15,10 @@
     "react-scripts": "^5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run buil",
     "deploy": "gh-pages -d public",
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "start-backend": "nodemon server/server.js",
     "start-frontend": "react-scripts start"
   },
