@@ -15,7 +15,7 @@
     "react-scripts": "^5.0.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d root",
+    "deploy": "gh-pages",
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
     "start-backend": "nodemon server/server.js",
     "start-frontend": "react-scripts start"
