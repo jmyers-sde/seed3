@@ -1,0 +1,51 @@
+main.homePage {
+  background-image: url('../../assets/library.png');
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100vh;
+  padding-top: 45px;
+  font-family: sans-serif;
+}
+
+main.homePage div {
+  color: tomato;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 3px 3px 10px skyblue;
+  background-color: rgba(245, 245, 245, 0.836);
+  box-shadow: 10px 10px 10px skyblue;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+}z
+
+main.homePage div h1 {
+  font-size: 70px;
+}
+
+main.homePage div p {
+  font-size: 20px;
+}
+
+main.homePage h1:first-child {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+main div.listContainer{
+  background-color: black;
+}
+
+main.homePage ul {
+  margin: auto;
+  list-style: upper-roman;
+  width: 75%;
+}
+
+@media only screen and (min-width: 700px){
+  main.homePage h1 {
+    font-size: 100px;
+  }
+}

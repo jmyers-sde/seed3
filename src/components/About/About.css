@@ -1,0 +1,42 @@
+div.aboutPage {
+    background: url('../../assets/bookStudy.png'), no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    padding-top: 45px;
+    font-family: sans-serif;
+  }
+
+  div.about{
+    margin: auto;
+    background-color: tomato;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+  }
+  
+  div.aboutPage h1 {
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0 0 8px lightskyblue;
+  }
+  
+  div.aboutPage ul {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  div.aboutPage li {
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 0 0 8px lightskyblue;
+  }
+
+  div.creater{
+    position: absolute;
+    background-color: black;
+    color: skyblue;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }

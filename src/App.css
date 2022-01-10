@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ============================= NavBar ===================================== */
+
+div.navBar {
+    position: fixed;
+    width: 100vw;
+    margin-bottom: 0px;
+    background-color: #333;
+    border-bottom: 2px solid black;
+    box-shadow: 0 2px 5px black;
+  }
+  
+  ul li.navItem {
+    display: inline-block;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  ul li.navItem a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li.navItem a:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  
+  ul li.navItem a.active {
+    color: skyblue;
+  }

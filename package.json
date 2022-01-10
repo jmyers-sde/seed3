@@ -1,0 +1,37 @@
+{
+  "name": "seed_3",
+  "version": "1.0.0",
+  "description": "Book Review",
+  "author": "Justin Myers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-backend": "nodemon server/server.js",
+    "start-frontend": "react-scripts start"
+  },
+  "proxy": "http://localhost:3033",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
