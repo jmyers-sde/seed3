@@ -15,12 +15,12 @@
     "react-scripts": "^3.4.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d build, public",
     "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
     "start-backend": "nodemon server/server.js",
     "start-frontend": "react-scripts start"
   },
-  "proxy": "http://localhost:3033",
+  "homepage": "https://github.com/jmyers-sde/seed3",
   "devDependencies": {
     "concurrently": "^5.1.0",
     "gh-pages": "^3.2.3"
