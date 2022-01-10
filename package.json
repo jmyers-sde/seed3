@@ -16,7 +16,7 @@
   },
   "scripts": {
     "deploy": "gh-pages -d public",
-    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start": "react-scripts start",
     "start-backend": "nodemon server/server.js",
     "start-frontend": "react-scripts start"
   },
